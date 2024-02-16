@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(58, 64, 146);
+    margin: auto 10%;
+    font-family: 'Montserrat';
+}
+
+main {
+    color: white;
+}
+
+.logo {
+    width: 75%;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    margin: 10% auto;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h1 span {
+    display: block;
+    font-style: italic;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+h2 {
+    margin-top: -0.5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text div {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.item {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.item span {
+    border-left: 1px solid white;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.icon {
+    background-color: rgb(232, 78, 28);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.15rem;
+    height: 0.15rem;
+    padding: 0.95rem 1rem 1rem 0.95rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .item {
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .logo {
+        width: 45%;
+    }
+    h1 {
+        margin-top: -2rem;
+        font-weight: 500;
+        font-size: 4rem;
+    }
+    h1 span {
+        display: block;
+        font-size: 5rem;
+        font-weight: 700;
+        font-style: italic;
+        border-bottom: 1px solid white;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    h2 {
+        margin-top: -2rem;
+        font-weight: 600;
+    }
+    .item {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+}
